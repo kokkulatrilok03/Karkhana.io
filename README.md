@@ -37,9 +37,6 @@ Where:
 ```bash
 pip install numpy scipy matplotlib
 🚀 Usage
-python
-Copy
-Edit
 from mobius_strip import MobiusStrip
 
 mobius = MobiusStrip(R=1.0, w=0.4, n=300)
@@ -60,10 +57,5 @@ Mesh generation and rendering
 
 Surface integration and geometric computation
 
-yaml
-Copy
-Edit
 
 ---
-
-Let me know your GitHub repo name or username if you want a personalized version.
