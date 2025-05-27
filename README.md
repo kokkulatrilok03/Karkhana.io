@@ -36,3 +36,34 @@ Where:
 
 ```bash
 pip install numpy scipy matplotlib
+🚀 Usage
+python
+Copy
+Edit
+from mobius_strip import MobiusStrip
+
+mobius = MobiusStrip(R=1.0, w=0.4, n=300)
+print(f"Surface Area ≈ {mobius.surface_area():.4f}")
+print(f"Edge Length ≈ {mobius.edge_length():.4f}")
+mobius.plot()
+📊 Output
+Surface Area: Computed via 2D Simpson’s Rule
+
+Edge Length: Summation of boundary segment distances
+
+Visualization: Rendered using matplotlib 3D surface plots
+
+💡 Applications
+3D geometry and topology education
+
+Mesh generation and rendering
+
+Surface integration and geometric computation
+
+yaml
+Copy
+Edit
+
+---
+
+Let me know your GitHub repo name or username if you want a personalized version.
